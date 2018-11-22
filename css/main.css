@@ -1,3 +1,13 @@
+.navigation_image {
+  height: 50px;;
+}
+.navigation_image_nosize {
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 section {
   z-index: 10;
 }
@@ -5,7 +15,6 @@ section {
   height: 50px;
 }
 .logo_footer {
-  /* display: flex; */
   height: 50px;
 }
 .footer_logo_box {
@@ -31,18 +40,19 @@ th, td {
 
 }
 .img-resize {
-  /* object-fit: cover;
-  object-position: center center; */
 }
 .background_nav {
-  /* position: relative; */
-  /* z-index: 1; */
-  background-size: cover;
-  width: 80%;
 }
 #main {
-  /* background-image: url("/gfx/mix-owocow-w-koszyku.jpg"); */
+  /* background-image: url("/gfx/mix-owocow-w-koszyku.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+
+  background: url("/gfx/mix-owocow-w-koszyku.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
