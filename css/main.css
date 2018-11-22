@@ -1,3 +1,33 @@
+section {
+  z-index: 10;
+}
+.background_nav {
+  position: relative;
+  z-index: 1;
+  background-size: cover;
+  width: 80%;
+}
+#main {
+  /* background-image: url("/gfx/mix-owocow-w-koszyku.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+}
+p {
+  text-align: justify;
+}
 hr {
   width: 20%;
+  height: 1px;
+  color: red;
+  background-color: red;
+  border: none;
+}
+
+.section_one {
+  width: 80%;
+  margin: 0 auto;
 }

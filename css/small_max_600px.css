@@ -1,0 +1,13 @@
+.fruts_img_section_one {
+  display: flex;
+  justify-content: space-between;
+}
+.img_one {
+  width: 48%;
+  height: 48%;
+}
+.img_two {
+  width: 48%;
+  height: 48%;
+
+}
