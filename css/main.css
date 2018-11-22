@@ -17,12 +17,12 @@ th, td {
 
 }
 .img-resize {
-  object-fit: cover;
-  object-position: center center;
+  /* object-fit: cover;
+  object-position: center center; */
 }
 .background_nav {
-  position: relative;
-  z-index: 1;
+  /* position: relative; */
+  /* z-index: 1; */
   background-size: cover;
   width: 80%;
 }
@@ -62,4 +62,12 @@ hr {
 }
 .section_tree_info {
   padding: 10px;
+}
+footer {
+  font-size: 10px;
+  padding: 20px;
+  background-color: gray;
+}
+.footer_main {
+  display: flex;
 }

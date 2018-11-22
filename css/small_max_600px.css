@@ -16,6 +16,8 @@
 
 }
 .img_tree {
+  display: flex;
+  align-self: flex-end;
   width: 50%;
-  height: 50%;
+  height: 15%;
 }
