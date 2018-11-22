@@ -2,6 +2,10 @@
   display: flex;
   justify-content: space-between;
 }
+.fruts_img_section_two {
+  display: flex;
+  justify-content: space-between;
+}
 .img_one {
   width: 48%;
   height: 48%;
@@ -10,4 +14,8 @@
   width: 48%;
   height: 48%;
 
+}
+.img_tree {
+  width: 50%;
+  height: 50%;
 }
