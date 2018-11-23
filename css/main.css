@@ -119,6 +119,9 @@ footer {
   width: 40%;
   display: flex;
   margin: 0 auto;
+  filter: invert(100%);
+  opacity: 0.6;
+
 }
 .bounce {
   -moz-animation: bounce 3s infinite;
