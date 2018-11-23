@@ -1,19 +1,13 @@
-#main_menu {
-  /* position: fixed; */
-}
-.navigation_image {
-  height: 50px;
-}
-.navigation_image_nosize {
+/* .navigation_image_nosize {
   background: url(images/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-section {
+} */
+/* section {
   z-index: 10;
-}
+} */
 .logo_nav {
   height: 50px;
 }
@@ -44,23 +38,27 @@ th,
 td {
   padding: 10px;
 }
-.img-resize {
-}
-.background_nav {
-}
+
 #main_menu {
   /* background-image: url("/gfx/mix-owocow-w-koszyku.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; */
-
+  color: white;
   background: url("/gfx/mix-owocow-w-koszyku.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-
+.menu_buttons_box {
+  background-color: black;
+  opacity: 0.4;
+}
+#slide_menu {
+  background-color: black;
+  opacity: 0.7;
+}
 h1,
 h2 {
   text-align: center;
@@ -78,7 +76,6 @@ hr {
   height: 1px;
   background-color: red;
   border: none;
-  opacity: 10%;
 }
 
 .section_one {
@@ -95,7 +92,7 @@ hr {
 footer {
   font-size: 10px;
   padding: 20px;
-  background-color: gray;
+  background-color: lightgray;
 }
 .footer_main {
   display: flex;
@@ -138,8 +135,6 @@ input {
 .footer_form {
   text-align: center;
 }
-
-
 
 @-webkit-keyframes bounce {
   0%,
