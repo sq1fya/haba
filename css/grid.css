@@ -1,0 +1,26 @@
+@supports (display: grid) {
+  .grid {
+    display: grid;
+    /* grid-gap: 1.5vw; */
+    /* min-height: 100vh; */
+    /* padding: 1.5vw; */
+  }
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 27vh 30vh repeat(7, minmax(20vh, 1fr));
+  }
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url("/gfx/truskawka-zerwana.jpg");
+    background-position: center;
+    background-size: 100%;
+
+  }
+  .grid_img {
+    width: 100px;
+    height: 100px;
+  }
+}

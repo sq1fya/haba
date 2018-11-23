@@ -13,11 +13,20 @@
 .img_two {
   width: 48%;
   height: 48%;
-
 }
 .img_tree {
   display: flex;
   align-self: flex-end;
   width: 50%;
   height: 15%;
-}
+  display: table-cell;
+    height: 200px;
+    vertical-align: middle;
+  }
+  .section_tree_info {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  p {
+  font-size: 12px;
+  }
