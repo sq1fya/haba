@@ -10,6 +10,7 @@
 } */
 .logo_nav {
   height: 50px;
+  position: absolute;
 }
 .logo_footer {
   height: 50px;
@@ -40,7 +41,8 @@ td {
 }
 
 #main_menu {
-  /* color: white;
+  color: white;
+  /* 
   background: url("/gfx/mix-owocow-w-koszyku.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -48,12 +50,22 @@ td {
   background-size: cover; */
 }
 .menu_buttons_box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   background-color: black;
   opacity: 0.4;
+  height: 60px;
+}
+a {
 }
 #slide_menu {
   background-color: black;
   opacity: 0.7;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
 }
 h1,
 h2 {
