@@ -128,6 +128,19 @@ footer {
   -webkit-animation: bounce 3s infinite;
   animation: bounce 3s infinite;
 }
+input {
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 75%;
+}
+.footer_form {
+  text-align: center;
+}
+
+
+
 @-webkit-keyframes bounce {
   0%,
   20%,
