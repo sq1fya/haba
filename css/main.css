@@ -40,16 +40,12 @@ td {
 }
 
 #main_menu {
-  /* background-image: url("/gfx/mix-owocow-w-koszyku.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; */
-  color: white;
+  /* color: white;
   background: url("/gfx/mix-owocow-w-koszyku.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
 }
 .menu_buttons_box {
   background-color: black;
