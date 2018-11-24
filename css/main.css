@@ -21,13 +21,13 @@ h2 {
 
 .font-header {
   font-weight: 300;
-  font-size: 23px;
+  font-size: 37px;
 }
 
 p {
   text-align: justify;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 24px;
+  line-height: 30px;
   font-weight: 300;
 }
 
@@ -36,7 +36,7 @@ li {
 }
 
 hr {
-  width: 100px;
+  width: 150px;
   height: 1px;
   background-color: red;
   border: none;
@@ -59,10 +59,6 @@ hr {
   margin-top: 20px;
 }
 
-.mb-30 {
-  margin-top: 30px;
-}
-
 .mb-10 {
   margin-bottom: 10px;
 }
@@ -79,8 +75,8 @@ hr {
   margin-bottom: 30px;
 }
 
-aside {
-  /* padding: 20px; */
+.mb-50 {
+  margin-bottom: 50px;
 }
 
 input {
@@ -92,7 +88,7 @@ input {
 }
 
 td {
-  font-size: 70%;
+  font-size: 18px;
 }
 
 table,
@@ -105,7 +101,17 @@ th {
 
 th,
 td {
-  padding: 10px;
+  padding: 10px 20px;
+}
+
+th {
+  font-size: 30px;
+  font-weight: 400;
+  padding: 20px;
+}
+td {
+  vertical-align: top;
+  
 }
 
 /* ///////////////////////// global styles end ////////////////////////   */
@@ -122,7 +128,7 @@ td {
 }
 
 .header-sticky__top-header {
-  padding: 10px 20px;
+  padding: 20px 30px;
   display: flex;
 }
 
@@ -131,18 +137,18 @@ td {
 }
 
 .logo-top {
-    width: 35px;
+    width: 50px;
     height: auto;
 }
 
 ul.header-sticky__navbar {
-  display: inline-block;
+  display: block;
   width: 100%;
   text-align: right;
   float: right;
 }
 .header-sticky__top-header ul {
-  padding-top: 5px;
+  padding-top: 15px;
 }
 
 li.header-sticky__navbar-link {
@@ -150,8 +156,8 @@ li.header-sticky__navbar-link {
 }
 
 .header-sticky__top-header ul > li {
-  margin-left: 15px;
-  font-size: 15px;
+  margin-left: 25px;
+  font-size: 23px;
 }
 
 li.header-sticky__navbar-link > a {
@@ -161,12 +167,11 @@ li.header-sticky__navbar-link > a {
 }
 
 li.header-sticky__navbar-link > a:hover {
-
   opacity: 0.7;
 }
 
 .header-sticky__bottom-header {
-  padding: 15px 25px;
+  padding: 22px 35px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -174,11 +179,11 @@ li.header-sticky__navbar-link > a:hover {
 }
 .header-sticky__bottom-header ul {
   margin: 0;
-  padding-bottom: 2px;
+  padding-bottom: 1px;
 }
 .header-sticky__bottom-header ul > li {
-  font-size: 11px;
-  margin-left: 9px;
+  font-size: 17px;
+  margin-left: 15px;
 }
 
 /* ///////////////////////// header-sticky end /////////////////////////////   */
@@ -187,9 +192,9 @@ li.header-sticky__navbar-link > a:hover {
 /* ///////////////////////// section hero /////////////////////////////   */
 
 .section-hero{
-  padding-top: 250px;
-  padding-bottom: 50px;
-  position:relative;
+  padding-top: 300px;
+  padding-bottom: 100px;
+  position: relative;
   color: #fff;
   text-align: center;
 }
@@ -200,14 +205,14 @@ li.header-sticky__navbar-link > a:hover {
 }
 
 .section-hero h1 {
-  font-size: 50px;
+  font-size: 70px;
   font-weight: 300;
   text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
   width: 70%;
   display: inline-block;
 }
 .section-hero h2 {
-  font-size: 32px;
+  font-size: 52px;
   font-weight: 100;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
 }
@@ -238,21 +243,21 @@ li.header-sticky__navbar-link > a:hover {
   text-align: center;
   float: left;
   width: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .section-types-of-fruit .container {
-  padding-top: 20px;
-  max-width: 600px;
+  padding-top: 35px;
+  max-width: 800px;
   margin: 0 auto;
 }
 .section-types-of-fruit p {
   display: inline-block;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
-.image-container {
-  margin-bottom: 25px;
+.section-types-of-fruit .image-container {
+  margin-bottom: 35px;
   float: left;
   width: 100%;
 }
@@ -260,14 +265,15 @@ li.header-sticky__navbar-link > a:hover {
 .img-left,
 .img-right {
   background-size: cover;
-  height: 192px;
-  width: 48%;
+  height: 250px;
+  width: calc(50% - 15px)
 }
 .img-left {
   float: left;
 }
 .img-right {
   float: right;
+  
 }
 
 .image-container--first .img-left {
@@ -298,11 +304,11 @@ li.header-sticky__navbar-link > a:hover {
 }
 
 .section-super-types-of-fruit .row:nth-of-type(even) aside div {
-  padding-left: 100px;
+  padding-left: 150px;
 }
 
 .section-super-types-of-fruit .row:nth-of-type(odd) aside div {
-  padding-right: 100px;
+  padding-right: 150px;
 }
 
 .section-super-types-of-fruit .row {
@@ -310,8 +316,12 @@ li.header-sticky__navbar-link > a:hover {
   float: left;
   display: flex;
 }
+
+.section-super-types-of-fruit .row .font-header {
+  text-align: left;
+}
 .section-super-types-of-fruit aside {
-  min-height: 400px;
+  min-height: 500px;
 
 }
 .section-super-types-of-fruit aside div {
@@ -343,6 +353,16 @@ li.header-sticky__navbar-link > a:hover {
 }
 
 /* ///////////////////////// section-super-types-of-fruit end /////////////////////////////   */
+
+.fruit-table {
+ 
+  justify-content: center;
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  
+}
+
 
 .section_one {
   
