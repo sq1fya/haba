@@ -80,7 +80,7 @@ hr {
 }
 
 aside {
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 input {
@@ -269,9 +269,11 @@ li.header-sticky__navbar-link > a:hover {
 .img-right {
   float: right;
 }
+
 .image-container--first .img-left {
   background-image: url(/gfx/truskawka-zerwana.jpg);
 }
+
 .image-container--first .img-right {
   background-image: url(/gfx/mix-owocow-w-koszyku.jpg);
 }
@@ -279,6 +281,7 @@ li.header-sticky__navbar-link > a:hover {
 .image-container--second .img-left {
   background-image: url(/gfx/jablka-zielone.jpg);
 }
+
 .image-container--second .img-right {
   background-image: url(/gfx/czeresnie-w-misce.jpg);
 }
@@ -289,6 +292,43 @@ li.header-sticky__navbar-link > a:hover {
 .section-super-types-of-fruit{
   clear: both;
 }
+
+.section-super-types-of-fruit .row:nth-of-type(even) .image-container {
+  order:1;
+}
+
+.section-super-types-of-fruit .row:nth-of-type(even) aside div {
+  padding-left: 100px;
+}
+
+.section-super-types-of-fruit .row:nth-of-type(odd) aside div {
+  padding-right: 100px;
+}
+
+.section-super-types-of-fruit .row {
+  width: 100%;
+  float: left;
+  display: flex;
+}
+.section-super-types-of-fruit aside {
+  min-height: 400px;
+
+}
+.section-super-types-of-fruit aside div {
+  padding: 50px;
+}
+
+.super-left, .super-right {
+  background-size: cover;
+  width: 50%;
+}
+
+.section-super-types-of-fruit .image-container{
+  background-position: center;
+  margin: 0;
+
+}
+
 .section-super-types-of-fruit .row-first .image-container {
   background-image: url(/gfx/wisnie-czerwone.jpg);
 }
