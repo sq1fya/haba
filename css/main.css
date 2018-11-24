@@ -8,6 +8,12 @@
 /* section {
   z-index: 10;
 } */
+html {
+  scroll-behavior: smooth;
+}
+li {
+  list-style-type: none;
+}
 .logo_nav {
   height: 50px;
   position: absolute;
