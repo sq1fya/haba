@@ -16,7 +16,8 @@ li {
 }
 .logo_nav {
   height: 50px;
-  position: absolute;
+  /* position: absolute; */
+  margin: 5px;
 }
 .logo_footer {
   height: 50px;
@@ -56,18 +57,22 @@ td {
   background-size: cover; */
 }
 .menu_buttons_box {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   background-color: black;
-  opacity: 0.4;
+  /* opacity: 0.4; */
   height: 60px;
 }
 a {
 }
 #slide_menu {
-  background-color: black;
-  opacity: 0.7;
+  position: fixed;
+  width: 100%;
+  background-color: red; 
+  /* opacity: 0.7; */
   display: flex;
   justify-content: flex-end;
   align-items: center;

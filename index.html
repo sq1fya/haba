@@ -17,35 +17,39 @@
 </head>
 
 <body>
-		<!-- <img class="background_nav" src="/gfx/mix-owocow-w-koszyku.jpg"/> -->
-	<section>
-		<header id="main">
-			<div class="paralaxa"></div>
-			<div>
-				<nav id="main_menu">
-					<img class="logo_nav" src="/gfx/logo-gruszka-ugryziona.png" alt="LOGO" />
-					<div class="menu_buttons_box">
-				<a href="#">O OWOCACH</a>
-				<a href="#">RODZAJE</a>
-				<a href="#">GALERIA</a>
-				<a href="#">KONTAKT</a>
+		<header class="header-sticky">
+				<nav id="main_menu" class="header-sticky__top-header">
+					<div class="logo-container">
+							<img class="logo-top" src="/gfx/logo-gruszka-ugryziona.png" alt="LOGO" />
 					</div>
-				<nav id="slide_menu">
-					<a href="#">WIŚNIE</a>
-					<a href="#">CZEREŚNIE</a>
-					<a href="#">JABŁKA</a>
-					<a href="#">TRUSKAWKI</a>
+					<ul class="header-sticky__navbar">
+						<li class="header-sticky__navbar-link"><a class="" href="#">O OWOCACH</a></li>
+						<li class="header-sticky__navbar-link"><a href="#">RODZAJE</a></li>
+						<li class="header-sticky__navbar-link"><a href="#">GALERIA</a></li>
+						<li class="header-sticky__navbar-link"><a href="#">KONTAKT</a></li>					
+					</ul>			
 				</nav>
-				<h1 class="hero-h1">OWOCE POLSKIE I EGZOTYCZNE</h1>
-				<h2 class="hero-h1">Najzdrowsze, najlepsze i najsmaczniejsze</h2>
-				<div class="downArrow bounce">
-						<img class="downArrow_img" width="40" height="40" alt="downArrow" src="http://chittagongit.com//images/scroll-down-icon-png/scroll-down-icon-png-20.jpg" />
-					</div>
-			</nav>
+				<nav id="slide_menu" class="header-sticky__bottom-header">
+					<ul class="header-sticky__navbar">
+						<li class="header-sticky__navbar-link"><a class="" href="#">WIŚNIE</a></li>
+						<li class="header-sticky__navbar-link"><a href="#">CZEREŚNIE</a></li>
+						<li class="header-sticky__navbar-link"><a href="#">JABŁKA</a></li>
+						<li class="header-sticky__navbar-link"><a href="#">TRUSKAWKI</a></li>					
+					</ul>				
+				</nav>
 			</div>
 		</header>
 
-		<section>
+		<div class="container-fluid">
+			<section>
+					<div class="paralaxa"></div>
+					<h1 class="hero-h1">OWOCE POLSKIE I EGZOTYCZNE</h1>
+					<h2 class="hero-h1">Najzdrowsze, najlepsze i najsmaczniejsze</h2>
+					<div class="downArrow bounce">
+						<img class="downArrow_img" width="40" height="40" alt="downArrow" src="http://chittagongit.com//images/scroll-down-icon-png/scroll-down-icon-png-20.jpg" />
+					</div>
+			</section>
+		
 			<section class="section_one">
 				<h1>Owoce i ich odmiany</h1>
 				<hr>
@@ -58,6 +62,7 @@
 					<img class="img_two" src="/gfx/mix-owocow-w-koszyku.jpg" alt="Fruits">
 				</div>
 			</section>
+			
 			<section class="section_one">
 				<hr>
 				<h1>Owoce i ich lorem ipsum</h1>
@@ -166,7 +171,7 @@
 							<img class="img_tree" src="gfx/truskawka-zerwana.jpg" alt="Fruits">
 						</div>
 					</section>
-		</section>
+		
 		<div>
 		<footer>
 			<div class="footer_main">
@@ -195,10 +200,6 @@
 	<div class="footer_copyright">Copyright !</div>
 		</footer>
 		</div>
-
-		<div class="card card-1"></div>
-		<div class="card card-1"></div>
-
 </body>
 
 </html>
