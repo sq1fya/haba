@@ -123,8 +123,11 @@ footer {
   /* left: 50%; */
 }
 .downArrow_img {
-  height: 150px;
+  height: 100px;
   width: 40%;
+  max-width: 200px;
+  min-width: 100px;
+  min-height: 50px;
   display: flex;
   margin: 0 auto;
   filter: invert(100%);
