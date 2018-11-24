@@ -16,13 +16,12 @@ body {
 h1,
 h2 {
   text-align: center;
-  margin-top: 0;
+  margin: 0;
 }
 
 .font-header {
   font-weight: 300;
   font-size: 23px;
-  margin-bottom: 15px;
 }
 
 p {
@@ -42,6 +41,42 @@ hr {
   background-color: red;
   border: none;
   margin: 0 auto;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-30 {
+  margin-top: 30px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
 }
 
 aside {
@@ -203,6 +238,7 @@ li.header-sticky__navbar-link > a:hover {
   text-align: center;
   float: left;
   width: 100%;
+  padding-bottom: 20px;
 }
 
 .section-types-of-fruit .container {
@@ -215,28 +251,61 @@ li.header-sticky__navbar-link > a:hover {
   margin: 20px 0;
 }
 
-.section-types-of-fruit__image-containers {
-  margin-bottom: 20px;
+.image-container {
+  margin-bottom: 25px;
+  float: left;
+  width: 100%;
+}
+
+.img-left,
+.img-right {
+  background-size: cover;
+  height: 192px;
+  width: 48%;
+}
+.img-left {
   float: left;
 }
-
-.img_one {
-  width: 48%;
-  height: auto;
-  min-width: 150px;
-  float: left;;
+.img-right {
+  float: right;
+}
+.image-container--first .img-left {
+  background-image: url(/gfx/truskawka-zerwana.jpg);
+}
+.image-container--first .img-right {
+  background-image: url(/gfx/mix-owocow-w-koszyku.jpg);
 }
 
-.img_two {
-  width: 48%;
-  height: auto;
-  float: right;
-  min-width: 150px;
+.image-container--second .img-left {
+  background-image: url(/gfx/jablka-zielone.jpg);
+}
+.image-container--second .img-right {
+  background-image: url(/gfx/czeresnie-w-misce.jpg);
 }
 
 /* ///////////////////////// section-types-of-fruit end /////////////////////////////   */
-.section_one {
+
+/* ///////////////////////// section-super-types-of-fruit /////////////////////////////   */
+.section-super-types-of-fruit{
   clear: both;
+}
+.section-super-types-of-fruit .row-first .image-container {
+  background-image: url(/gfx/wisnie-czerwone.jpg);
+}
+.section-super-types-of-fruit .row-second .image-container {
+  background-image: url(/gfx/czeresnie-w-misce.jpg);
+}
+.section-super-types-of-fruit .row-third .image-container {
+  background-image: url(/gfx/jablka-zielone.jpg);
+}
+.section-super-types-of-fruit .row-fourth .image-container {
+  background-image: url(/gfx/truskawka-zerwana.jpg);
+}
+
+/* ///////////////////////// section-super-types-of-fruit end /////////////////////////////   */
+
+.section_one {
+  
   width: 80%;
   margin: 0 auto;
 }
