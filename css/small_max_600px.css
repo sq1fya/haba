@@ -1,16 +1,105 @@
+/* ///////////////////////// global styles ///////////////////////// */
+
+
+.font-header {
+  font-size: 27px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+/* ///////////////////////// global styles end ///////////////////////// */
+
+/* ///////////////////////// section hero  ///////////////////////// */
+
+.section-hero {
+  padding-top: 200px;
+  padding-bottom: 80px;
+}
+
 .logo-top {
   display: none;
 }
 
 .section-hero h1 {
-  font-size: 50px;
+  font-size: 30px;
 }
 .section-hero h2 {
-  font-size: 32px;
+  font-size: 25px;
 }
+
+/* ///////////////////////// section hero end ///////////////////////// */
+
+/* ///////////////////////// section section-types-of-fruit  ///////////////////////// */
+
+.section-types-of-fruit .container {
+  padding: 25px 20px;
+}
+
+.img-left,
+.img-right {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.section-types-of-fruit .image-container {
+  margin-bottom: 10px;
+}
+
+/* ///////////////////////// section section-types-of-fruit end ///////////////////////// */
+
+/* ///////////////////////// section-super-types-of-fruit /////////////////////////////   */
+.section-super-types-of-fruit .row:nth-of-type(even) .image-container {
+  order: 0;
+}
+
+.section-super-types-of-fruit .row {
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.section-super-types-of-fruit .row:nth-of-type(even) aside div {
+  padding-left: 0;
+}
+
+.section-super-types-of-fruit .row:nth-of-type(odd) aside div {
+  padding-right: 0;
+ 
+}
+
+.section-super-types-of-fruit .row aside div {
+  padding: 20px 0;
+}
+
+.section-super-types-of-fruit .row:last-of-type {
+  margin-bottom: 20px;
+}
+
+.section-super-types-of-fruit aside {
+  min-height: 0;
+
+}
+.section-super-types-of-fruit .image-container {
+  min-height: 230px;
+}
+.section-super-types-of-fruit aside div {
+  padding: 20px;
+}
+
+.super-left,
+.super-right {
+  width: 100%;
+}
+
+/* ///////////////////////// section-super-types-of-fruit end /////////////////////////////   */
 
 /* ///////////////////////// table /////////////////////////////////// */
 
+.fruit-table {
+  clear: both;
+}
 table, thead, tbody, th, td, tr { 
   display: block; 
 }
@@ -56,6 +145,16 @@ td:nth-of-type(4):before { content: "Opis"; text-align: left; }
 
 /* /////////////////////////table end///////////////////////////////// */
 
+/* /////////////////////////fruit-info///////////////////////////////// */
+
+.fruit-info-boxs {
+  flex-wrap: wrap;
+}
+/* /////////////////////////fruit-info end///////////////////////////////// */
+
+/* /////////////////////////table end///////////////////////////////// */
+
+
 /* ///////////////////////// section footer /////////////////////////////   */
 
 footer.footer_fruits {
@@ -67,6 +166,7 @@ footer.footer_fruits {
 .footer_main {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .footer_left {
   display: flex;

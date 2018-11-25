@@ -308,6 +308,7 @@ li.header-sticky__navbar-link > a:hover {
   width: 100%;
   float: left;
   display: flex;
+  box-sizing: border-box;
 }
 
 .section-super-types-of-fruit .row .font-header {
