@@ -94,6 +94,7 @@ td {
 table,
 td,
 th {
+  font-weight: 400;
   border: 1px solid black;
   border-collapse: collapse;
   text-align: left;
@@ -101,7 +102,7 @@ th {
 
 th,
 td {
-  padding: 10px 20px;
+  padding: 10px 30px;
 }
 
 th {
@@ -309,6 +310,10 @@ li.header-sticky__navbar-link > a:hover {
 
 .section-super-types-of-fruit .row:nth-of-type(odd) aside div {
   padding-right: 150px;
+}
+
+.section-super-types-of-fruit .row:last-of-type {
+  margin-bottom: 70px;
 }
 
 .section-super-types-of-fruit .row {
