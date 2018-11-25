@@ -102,7 +102,7 @@ th {
 
 th,
 td {
-  padding: 10px 30px;
+  /* padding: 10px 30px; */
 }
 
 th {
@@ -359,14 +359,29 @@ li.header-sticky__navbar-link > a:hover {
 
 /* ///////////////////////// section-super-types-of-fruit end /////////////////////////////   */
 
+
+/* ///////////////////////// section-fruit-table /////////////////////////////   */
+
+
 .fruit-table {
- 
   justify-content: center;
   width: 100%;
   max-width: 80%;
   margin: 0 auto;
-  
 }
+table tbody tr td:nth-of-type(-n+3) {
+  padding: 10px 30px;
+}
+
+table tbody tr td:nth-of-type(3) {
+  white-space: nowrap;
+}
+
+table tbody tr td:nth-of-type(4) {
+  padding: 20px 10px 10px 50px;  
+}
+
+/* ///////////////////////// section-fruit-table end /////////////////////////////   */
 
 
 .section_one {
