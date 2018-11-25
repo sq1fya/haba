@@ -1,0 +1,22 @@
+
+#main_menu {
+  transition: 0.4s;
+}
+
+#slide_menu {
+  transition: 0.4s;
+}
+
+@media screen and (max-width: 580px) {
+  #main_menu {
+    padding: 20px 0px !important;
+  }
+  #main_menu a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #main_menu-right {
+    float: none;
+  }
+}
