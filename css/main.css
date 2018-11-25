@@ -370,7 +370,7 @@ li.header-sticky__navbar-link > a:hover {
   margin: 0 auto;
 }
 table tbody tr td:nth-of-type(-n+3) {
-  padding: 10px 30px;
+  padding: 15px 30px;
 }
 
 table tbody tr td:nth-of-type(3) {
@@ -378,7 +378,7 @@ table tbody tr td:nth-of-type(3) {
 }
 
 table tbody tr td:nth-of-type(4) {
-  padding: 20px 10px 10px 50px;  
+  padding: 15px 10px 10px 50px;  
 }
 
 /* ///////////////////////// section-fruit-table end /////////////////////////////   */
