@@ -425,7 +425,8 @@ table tbody tr td:nth-of-type(4) {
 /* ///////////////////////// section footer /////////////////////////////   */
 
 footer {
-  font-size: 10px;
+  font-size: 20px;
+  font-weight: 300;
   padding: 20px;
   background-color: lightgray;
 }
@@ -442,11 +443,13 @@ footer {
 }
 
 .logo_footer {
-  height: 50px;
+  width: 50px;
+  height: auto;
 }
 .footer_logo_box {
-  display: flex;
   align-items: center;
+  display: flex;
+  padding: 30px;
 }
 .footer_copyright {
   text-align: center;
