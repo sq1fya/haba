@@ -424,7 +424,7 @@ table tbody tr td:nth-of-type(4) {
 
 /* ///////////////////////// section footer /////////////////////////////   */
 
-footer {
+footer.footer_fruits {
   font-size: 20px;
   font-weight: 300;
   padding: 20px;
@@ -437,6 +437,25 @@ footer {
 .footer_left {
   display: flex;
 }
+
+.footer_fruits .footer_main .footer_left ul{
+  margin-bottom: 0 auto;
+  border-right-color: black;
+  border-right-style: solid;
+  border-width: 1px;
+}
+
+.footer_fruits .footer_main .footer_left ul {
+  padding: 0px 70px 0px 70px;
+}
+
+.footer_fruits .footer_main .footer_left ul li {
+  margin-bottom: 25px;
+}
+.footer_fruits .footer_main .footer_left ul li:last-of-type {
+  margin-bottom: 0;
+}
+
 .footer_right {
   display: flex;
   align-items: center;
@@ -461,6 +480,7 @@ footer {
 
 /* ///////////////////////// section footer end /////////////////////////////   */
 
+/* ///////////////////////// Anitation Arrow /////////////////////////////   */
 
 @-webkit-keyframes bounce {
   0%,
@@ -504,3 +524,4 @@ footer {
     transform: translateY(-15px);
   }
 }
+/* ///////////////////////// Anitation Arrow end /////////////////////////////   */
