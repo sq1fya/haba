@@ -6,7 +6,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #212121;
 }
 .container {
@@ -112,16 +112,14 @@ th {
 }
 td {
   vertical-align: top;
-  
 }
 
 /* ///////////////////////// global styles end ////////////////////////   */
 
-
 /* ///////////////////////// header-sticky /////////////////////////////   */
 
 .header-sticky {
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.6);
   position: fixed;
   width: 100%;
   display: block;
@@ -138,8 +136,8 @@ td {
 }
 
 .logo-top {
-    width: 50px;
-    height: auto;
+  width: 50px;
+  height: auto;
 }
 
 ul.header-sticky__navbar {
@@ -176,7 +174,7 @@ li.header-sticky__navbar-link > a:hover {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0, 0, 0, 0.3);
 }
 .header-sticky__bottom-header ul {
   margin: 0;
@@ -189,10 +187,9 @@ li.header-sticky__navbar-link > a:hover {
 
 /* ///////////////////////// header-sticky end /////////////////////////////   */
 
-
 /* ///////////////////////// section hero /////////////////////////////   */
 
-.section-hero{
+.section-hero {
   padding-top: 300px;
   padding-bottom: 100px;
   position: relative;
@@ -208,14 +205,14 @@ li.header-sticky__navbar-link > a:hover {
 .section-hero h1 {
   font-size: 70px;
   font-weight: 300;
-  text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
   width: 70%;
   display: inline-block;
 }
 .section-hero h2 {
   font-size: 52px;
   font-weight: 100;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 }
 
 .downArrow_img {
@@ -267,14 +264,13 @@ li.header-sticky__navbar-link > a:hover {
 .img-right {
   background-size: cover;
   height: 250px;
-  width: calc(50% - 15px)
+  width: calc(50% - 15px);
 }
 .img-left {
   float: left;
 }
 .img-right {
   float: right;
-  
 }
 
 .image-container--first .img-left {
@@ -296,12 +292,12 @@ li.header-sticky__navbar-link > a:hover {
 /* ///////////////////////// section-types-of-fruit end /////////////////////////////   */
 
 /* ///////////////////////// section-super-types-of-fruit /////////////////////////////   */
-.section-super-types-of-fruit{
+.section-super-types-of-fruit {
   clear: both;
 }
 
 .section-super-types-of-fruit .row:nth-of-type(even) .image-container {
-  order:1;
+  order: 1;
 }
 
 .section-super-types-of-fruit .row:nth-of-type(even) aside div {
@@ -327,21 +323,20 @@ li.header-sticky__navbar-link > a:hover {
 }
 .section-super-types-of-fruit aside {
   min-height: 500px;
-
 }
 .section-super-types-of-fruit aside div {
   padding: 50px;
 }
 
-.super-left, .super-right {
+.super-left,
+.super-right {
   background-size: cover;
   width: 50%;
 }
 
-.section-super-types-of-fruit .image-container{
+.section-super-types-of-fruit .image-container {
   background-position: center;
   margin: 0;
-
 }
 
 .section-super-types-of-fruit .row-first .image-container {
@@ -359,9 +354,7 @@ li.header-sticky__navbar-link > a:hover {
 
 /* ///////////////////////// section-super-types-of-fruit end /////////////////////////////   */
 
-
 /* ///////////////////////// section-fruit-table /////////////////////////////   */
-
 
 .fruit-table {
   justify-content: center;
@@ -369,7 +362,13 @@ li.header-sticky__navbar-link > a:hover {
   max-width: 80%;
   margin: 0 auto;
 }
-table tbody tr td:nth-of-type(-n+3) {
+
+.fruit-table .container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+table tbody tr td:nth-of-type(-n + 3) {
   padding: 15px 30px;
 }
 
@@ -378,14 +377,12 @@ table tbody tr td:nth-of-type(3) {
 }
 
 table tbody tr td:nth-of-type(4) {
-  padding: 15px 10px 10px 50px;  
+  padding: 15px 10px 10px 50px;
 }
 
 /* ///////////////////////// section-fruit-table end /////////////////////////////   */
 
-
 .section_one {
-  
   width: 80%;
   margin: 0 auto;
 }
