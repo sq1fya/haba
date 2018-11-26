@@ -118,6 +118,12 @@ a:hover {
   transform: none;
 }
 
+#navbar nav #menuToggle #menu li .logo-hamburger {
+  height: 60px;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
 /* ///////////////////////// hamburger menu end  ///////////////////////// */
 
 

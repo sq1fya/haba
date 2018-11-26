@@ -1,6 +1,128 @@
+/* ///////////////////////// global styles ///////////////////////// */
+
 p {
   font-size: 18px;
 }
+
+/* ///////////////////////// global styles end ///////////////////////// */
+
+
+/* ///////////////////////// hamburger menu  ///////////////////////// */
+
+#navbar nav #menuToggle #menu hr {
+  width: 20%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: none;
+  margin: 0 auto;
+}
+
+#menuToggle {
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: tomato;
+}
+
+#menuToggle {
+  display: block;
+  position: relative;
+  top: 25px;
+  left: 25px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+  -webkit-touch-callout: none;
+}
+
+#menuToggle span {
+  display: block;
+  width: 65px;
+  height: 14px;
+  margin-bottom: 5px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu {
+  position: absolute;
+  width: 100%;
+  margin: -100px 0 0 -50px;
+  padding: 20px;
+  padding-top: 125px;
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li {
+  padding:8px 0;
+  font-size: 32px;
+  text-align: center;
+}
+
+#menuToggle input:checked ~ ul {
+  transform: none;
+}
+
+#navbar nav #menuToggle #menu li .logo-hamburger {
+  height: 60px;
+  position: absolute;
+  top: 30px;
+  right: 48%;
+}
+
+/* ///////////////////////// hamburger menu end  ///////////////////////// */
 
 /* ///////////////////////// section hero  ///////////////////////// */
 .header-sticky__top-header {
@@ -88,6 +210,49 @@ p {
 
 
 /* ///////////////////////// section-super-types-of-fruit end /////////////////////////////   */
+
+/* ///////////////////////// table /////////////////////////////////// */
+
+.fruit-table {
+  clear: both;
+}
+table,
+thead,
+tbody,
+th,
+td,
+tr {
+  display: block;
+}
+
+.fruit-table .container table thead tr th {
+  display: none;
+}
+
+td {
+  position: relative;
+}
+
+td:before {
+  display: flex;
+  white-space: nowrap;
+}
+
+td:nth-of-type(1):before {
+  content: "Lp.";
+}
+td:nth-of-type(2):before {
+  content: "Nazwa";
+}
+td:nth-of-type(3):before {
+  content: "Gatunek";
+}
+td:nth-of-type(4):before {
+  content: "Opis";
+  margin-bottom: 15px;
+}
+
+/* /////////////////////////table end///////////////////////////////// */
 
 /* /////////////////////////fruit-info-box///////////////////////////////// */
 
