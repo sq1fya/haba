@@ -482,6 +482,9 @@ input.footer_fruit {
   display: flex;
   padding: 70px;
 }
+.footer_logo_box_mobile {
+  display: none;
+}
 .footer_copyright {
   text-align: center;
 }
