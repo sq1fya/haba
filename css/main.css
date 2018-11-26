@@ -379,14 +379,17 @@ table tbody tr td:nth-of-type(4) {
 
 /* ///////////////////////// section-fruit-table end /////////////////////////////   */
 
-/* ///////////////////////// section-fruit-info-boxs /////////////////////////////   */
+/* ///////////////////////// section-fruit-info-box /////////////////////////////   */
 
-.fruit-info-boxs {
+.fruit-info-box {
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
 
-.fruit-info-boxs .info-box p {
+.fruit-info-box .info-box p {
   font-size: 18px;
 }
 
@@ -404,16 +407,16 @@ table tbody tr td:nth-of-type(4) {
   max-width: 100%;
   max-height: 100%;
 }
-.fruit-info-boxs .info-box h3 {
+.fruit-info-box .info-box h3 {
   font-size: 18px;
   font-weight: 400;
 }
-.fruit-info-boxs .info-box hr {
+.fruit-info-box .info-box hr {
   margin: 0;
   width: 50%;
 }
 
-/* ///////////////////////// section-fruit-info-boxs end /////////////////////////////   */
+/* ///////////////////////// section-fruit-info-box end /////////////////////////////   */
 
 /* ///////////////////////// section footer /////////////////////////////   */
 
