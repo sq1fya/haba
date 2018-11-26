@@ -97,7 +97,7 @@ a:hover {
 
 #menu {
   position: absolute;
-  width: 300px;
+  width: 80%;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
@@ -111,7 +111,7 @@ a:hover {
 
 #menu li {
   padding: 10px 0;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 #menuToggle input:checked ~ ul {
