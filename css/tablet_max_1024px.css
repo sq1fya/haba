@@ -1,0 +1,164 @@
+p {
+  font-size: 18px;
+}
+
+/* ///////////////////////// section hero  ///////////////////////// */
+.header-sticky__top-header {
+  display: none;
+}
+.header-sticky__bottom-header {
+  display: none;
+}
+.header-sticky__navbar {
+  display: none;
+}
+.header-sticky {
+  background: none;
+}
+.section-hero {
+  padding-top: 200px;
+  padding-bottom: 80px;
+}
+
+.logo-top {
+  display: none;
+}
+
+.section-hero h1 {
+  font-size: 55px;
+}
+.section-hero h2 {
+  font-size: 35px;
+}
+.downArrow {
+  margin-top: 100px;
+}
+
+/* ///////////////////////// section hero end ///////////////////////// */
+
+/* ///////////////////////// section-super-types-of-fruit /////////////////////////////   */
+.section-super-types-of-fruit {
+  clear: both;
+}
+
+.section-super-types-of-fruit .row:nth-of-type(even) .image-container {
+  order: 1;
+}
+
+.section-super-types-of-fruit .row:nth-of-type(even) aside div {
+  padding-left: 25px;
+}
+
+.section-super-types-of-fruit .row:nth-of-type(odd) aside div {
+  padding-right: 25px;
+}
+
+.section-super-types-of-fruit .row:last-of-type {
+  margin-bottom: 30px;
+}
+
+.section-super-types-of-fruit .row {
+  width: 100%;
+  float: left;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.section-super-types-of-fruit .row .font-header {
+  text-align: left;
+}
+.section-super-types-of-fruit aside {
+  min-height: 250px;
+}
+.section-super-types-of-fruit aside div {
+  padding: 20px;
+}
+
+.super-left,
+.super-right {
+  background-size: cover;
+  width: 50%;
+}
+
+.section-super-types-of-fruit .image-container {
+  background-position: center;
+  margin: 0;
+  min-height: 350px;
+}
+
+
+/* ///////////////////////// section-super-types-of-fruit end /////////////////////////////   */
+
+/* /////////////////////////fruit-info-box///////////////////////////////// */
+
+.fruit-info-box {
+  flex-wrap: wrap;
+}
+.info-box {
+  padding: 0px;
+  max-width: 47%;
+}
+.info-box:nth-child(1) {
+  padding: 0;
+}
+.info-box {
+  padding: 10px;
+}
+.info-box:nth-child(4) {
+  padding: 0;
+}
+/* /////////////////////////fruit-info-box end///////////////////////////////// */
+
+
+/* ///////////////////////// section footer /////////////////////////////   */
+
+.footer_logo_box {
+  padding: 50px;
+}
+
+footer.footer_fruits {
+  font-size: 15px;
+  padding: 5px;
+
+}
+.footer_main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer_left {
+  display: flex;
+}
+
+.footer_fruits .footer_main .footer_left ul {
+  margin-bottom: 0 auto;
+}
+
+.footer_fruits .footer_main .footer_left ul {
+  padding: 0px 20px 0px 20px;
+}
+
+.footer_fruits .footer_main .footer_left ul li {
+  margin-bottom: 25px;
+}
+.footer_fruits .footer_main .footer_left ul li:last-of-type {
+  margin-bottom: 0;
+}
+
+.footer_right {
+  display: flex;
+  align-items: center;
+}
+
+.form_box {
+  margin: 30px 0px 15px 0px;
+  width: 100%;
+}
+
+input.footer_fruit {
+  width: 80%;
+  height: 30px;
+  font-size: 20px;
+}
+
+/* ///////////////////////// section footer end /////////////////////////   */
